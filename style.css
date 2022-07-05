@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header section style start now */
+
+.header-section {
+    text-align: center;
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.header-section h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 200px;
+}
+
+.header-section p {
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: #ddd;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* header section style end now */
