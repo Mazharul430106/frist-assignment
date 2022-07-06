@@ -15,9 +15,10 @@ body {
 
 .header-section h1 {
     text-transform: capitalize;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
     padding-top: 200px;
+    font-weight: 900;
 }
 
 .header-section p {
@@ -29,11 +30,12 @@ body {
 .btn {
     text-decoration: none;
     background-color: chocolate;
-    padding: 10px 25px;
+    padding: 15px 25px;
     text-transform: capitalize;
     border-radius: 4px;
     color: #fff;
     font-weight: 500;
+    font-size: 18px;
 }
 
 /* header section style end now */
@@ -46,8 +48,9 @@ body {
 
 .section-title h2 {
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 55px;
     margin: 0;
+    color: #000;
 }
 
 .section-title p {
@@ -85,6 +88,7 @@ body {
 #target-amount {
     border: 2px solid chocolate;
     color: chocolate;
+    background-color: rgb(246, 204, 174);
 }
 
 .form {
@@ -93,7 +97,7 @@ body {
 
 .form #email {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 0px;
     outline: 0;
     border-top: none;
     border-left: none;
@@ -102,17 +106,20 @@ body {
     margin-bottom: 20px;
 }
 
+.form #email::placeholder {
+    text-align: center;
+}
+
 #submit-btn {
-    padding: 10px 25px;
+    padding: 15px 25px;
     font-size: 20px;
     background: chocolate;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     color: #fff;
+
 }
-
-
 
 /* donate section style end now */
 
@@ -150,3 +157,96 @@ body {
 }
 
 /* donate plan section style end now */
+
+/* support section style start now */
+.support_section {
+    padding: 0 10%;
+}
+
+.supported_organizations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.organizations {
+    width: 50%;
+}
+
+.organizations h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    margin: 0;
+}
+
+.organizations ul li {
+    line-height: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.organizations img {
+    width: 100%;
+}
+
+/* support section style end now */
+
+/* newsletter section style start now */
+.title {
+    padding-top: 40px;
+}
+
+.newsletter-section form {
+    text-align: center;
+    background-color: #FFF4D6;
+    border-radius: 4px;
+    margin: 50px 15%;
+    padding: 4% 0;
+}
+
+.input_field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email_input {
+    width: 50%;
+    padding: 15px 25px;
+    background: #ccc;
+    outline: 0;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#subscribe {
+    padding: 12.2px 25px;
+    border: none;
+    text-transform: capitalize;
+    margin-right: -2px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: chocolate;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* newsletter section style end now */
+
+/* footer section style start now */
+footer {
+    text-align: center;
+    padding: 45px 0;
+    background: #222;
+    color: #fff;
+}
+
+footer h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+/* footer section style end now */
