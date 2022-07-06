@@ -8,6 +8,7 @@ body {
     text-align: center;
     background-image: url(images/donation13.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     color: #fff;
 }
@@ -36,3 +37,72 @@ body {
 }
 
 /* header section style end now */
+
+/* donate section style start now */
+.donate-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.donate-section h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.donate-section p {
+    color: #666;
+}
+
+.amount-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+.amount {
+    width: 150px;
+    padding: 15px 20px;
+    background: #eee;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.amount h3 {
+    font-size: 35px;
+}
+
+#target-amount {
+    border: 2px solid chocolate;
+    color: chocolate;
+}
+
+.form {
+    padding: 0 10%;
+}
+
+.form #email {
+    width: 100%;
+    padding: 10px 20px;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#submit-btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    background: chocolate;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+/* donate section style end now */
